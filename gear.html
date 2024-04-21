@@ -21,7 +21,8 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,7 +44,9 @@
       </div>
     </div>
   </nav>
-  <!-- CONTENT 1 START -->
+  <!-- NAVBAR END -->
+
+  <!-- PROFIL CONTENT START -->
   <div class="my-5 mx-auto" style="max-width: 500px;">
     <div class="row g-0 align-items-center">
       <div class="col-md-4">
@@ -64,24 +67,56 @@
       width: 40%;
       margin: auto;
       background-color: paleturquoise;
-      box-shadow: ;
+      box-shadow: none;
     }
   </style>
-  <!-- CONTENT 1 END -->
-  <!-- GEAR 1 -->
-  <h2><strong>My Gear</strong></h2>
-  <div class="card" style="width: 15rem;">
-    <img src="realme 5.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Realme 5</h5>
-      <p class="card-text">Main mobile phone. Snap-Naga 665.</p>
-      <a href="https://www.realme.com/id/realme-5" class="btn btn-primary">Cek aja </a>
+  <!-- PROFIL CONTENT END -->
+
+  <!-- GEAR CONTENT START -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="L-T420-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lenovo Thinkpad T420</h5>
+          <p class="card-text">Main computer work. Core i5 gen 2.</p>
+          <a href="https://pcsupport.lenovo.com/us/id/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t420/" class="btn btn-primary">Cek Aja</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="mouse m tech mt-129.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">M-Tech MT-129</h5>
+          <p class="card-text">Mouse standard. Murahan dan Berfungsi dengan baik. Kenapa tidak?🤣</p>
+          <a href="https://shopee.co.id/Mouse-Usb-Kabel-M-Tech-Mt-129-i.143271291.2174019629?sp_atk=7200db18-a8c9-4578-a1c9-2b387c7acd6e" class="btn btn-primary">Cek Aja</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="realme 5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Realme 5</h5>
+          <p class="card-text">Main mobile phone. Snap-naga 665 AIE </p>
+          <a href="https://www.realme.com/id/realme-5" class="btn btn-primary">Cek Aja</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="A1660-iPhone.png" class="card-img-top" style="max-width: 250px; display: block; margin:auto;">
+        <div class="card-body">
+          <h5 class="card-title">iPhone 7 </h5>
+          <p class="card-text">Secondary mobile phone. A10 Fusion</p>
+          <a href="https://support.apple.com/en-us/111943" class="btn btn-primary">Cek Aja</a>
+        </div>
+      </div>
     </div>
   </div>
-  <style>
 
-  </style>
-  <!-- GEAR 2 -->
+  <!-- GEAR CONTENT END -->
   <footer>
     <div class="footerContainer">
       <div class="socialIcons">
@@ -98,82 +133,82 @@
   </footer>
 </body>
 <style>
-    * {
-      padding: 0;
-      margin-bottom: 0%;
-      margin-top: 0%;
-      box-sizing: border-box;
-    }
+  * {
+    padding: 0;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    box-sizing: border-box;
+  }
 
-    .footer {
-      background-color: black;
-    }
+  .footer {
+    background-color: black;
+  }
 
-    .footerContainer {
-      width: 100%;
-      padding: 70px 30px 20px;
-      background-color: black;
-    }
+  .footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+    background-color: black;
+  }
 
-    .socialIcons {
-      display: flex;
-      justify-content: center;
-    }
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+  }
 
-    .socialIcons a {
-      text-decoration: none;
-      padding: 10px;
-      background-color: white;
-      margin: 10px;
-      border-radius: 50%;
-    }
+  .socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
 
-    .socialIcons a i {
-      font-size: 2em;
-      color: black;
-      opacity: 0.9;
+  .socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+  }
+
+  .footerBottom {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+  }
+
+  .designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+
+  }
+
+  .socialIcons a:hover {
+    background-color: black;
+    transition: 0.5s;
+  }
+
+  .socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+
+  @media (max-width: 600px) {
+    .footerBottom {
+      flex-direction: column;
     }
 
     .footerBottom {
-      display: flex;
-      justify-content: center;
-      color: white;
-      padding: 20px;
+      width: 100%;
       text-align: center;
-      background-color: black;
-    }
-
-    .designer {
-      opacity: 0.7;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 400;
-      margin: 0px 5px;
+      margin: 5px;
 
     }
-
-    .socialIcons a:hover {
-      background-color: black;
-      transition: 0.5s;
-    }
-
-    .socialIcons a:hover i {
-      color: white;
-      transition: 0.5s;
-    }
-
-    @media (max-width: 600px) {
-      .footerBottom {
-        flex-direction: column;
-      }
-
-      .footerBottom {
-        width: 100%;
-        text-align: center;
-        margin: 5px;
-
-      }
-    }
+  }
 </style>
 </body>
 
